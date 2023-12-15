@@ -1792,7 +1792,7 @@ input, select, textarea {
 			}
 
 		header.major > p {
-			font-size: 0.7em;
+			font-size: 0.8em;
 			font-weight: 600;
 			letter-spacing: 0.25em;
 			margin-bottom: 0;
@@ -2520,7 +2520,7 @@ input, select, textarea {
 		color: #ffffff;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.8em;
+		font-size: 0.9em;
 		font-weight: 600;
 		height: 3.5em;
 		letter-spacing: 0.25em;
@@ -3474,7 +3474,7 @@ input, select, textarea {
 				}
 
 				#banner > .inner .content p {
-					font-size: 0.7em;
+					font-size: 1.2em;
 					font-weight: 600;
 					letter-spacing: 0.25em;
 					text-transform: uppercase;
@@ -3856,7 +3856,7 @@ input, select, textarea {
 						border: 0;
 						border-top: solid 1px rgba(212, 212, 255, 0.1);
 						display: block;
-						font-size: 0.8em;
+						font-size: 1em;
 						font-weight: 600;
 						letter-spacing: 0.25em;
 						line-height: 4em;
