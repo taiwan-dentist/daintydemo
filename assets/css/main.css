@@ -1,6 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
-
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;600;900&display=swap");
 /*
 	Forty by HTML5 UP
 	html5up.net | @ajlkn
@@ -117,7 +117,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Noto Sans TC","Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
@@ -253,7 +253,7 @@ input, select, textarea {
 
 	code {
 		background: rgba(212, 212, 255, 0.035);
-		font-family: "Courier New", monospace;
+		font-family: "Noto Sans TC","Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -261,7 +261,7 @@ input, select, textarea {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family:"Noto Sans TC", "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -2018,7 +2018,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				font-family: "Noto Sans TC",'Font Awesome 5 Free';
 				font-weight: 900;
 			}
 
@@ -2112,7 +2112,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: "Noto Sans TC",'Font Awesome 5 Free';
 			font-weight: 400;
 		}
 
@@ -2129,7 +2129,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: "Noto Sans TC",'Font Awesome 5 Brands';
 		}
 
 		.icon.alt:before {
