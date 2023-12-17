@@ -1,3 +1,50 @@
-#asidetitlelogo {
-    height: 10%;
+#floatingSidebar {
+    position: fixed;
+    right: 0px ;
+    top: 80%;
+    z-index: 10;
+    width: calc(6vh - 2px);
+}
+
+
+#icon {
+   padding: 0px;
+}
+
+#iconreal{
+    object-fit: contain;
+    width: 6vh; /* limit the width of the icon */
+    height: 9vh; /* limit the height of the icon */
+}
+
+
+/* use keyframes to create a bounce animation */
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* add a class to apply the animation */
+.bounce {
+  animation: bounce 0.4s;
+}
+
+
+#logotitle{
+  object-fit: contain; 
+  height: 8vmax; 
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.8));
 }

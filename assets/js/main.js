@@ -333,3 +333,21 @@
 			});
 
 })(jQuery);
+
+
+
+//這裡懸浮icon的預約功能，畫面滑至最底
+document.getElementById('floatingSidebar').addEventListener('click', () => {
+    window.scrollTo({
+       top: document.body.scrollHeight,
+       behavior: 'smooth'
+    });
+ });
+
+ function bounceIcon() {
+    document.getElementById('icon').classList.add('bounce');
+    // remove the class after the animation ends
+    setTimeout(() => {
+       document.getElementById('icon').classList.remove('bounce');
+    }, 500);
+ }
