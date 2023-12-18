@@ -1,9 +1,10 @@
 #floatingSidebar {
     position: fixed;
     right: 0px ;
-    top: 80%;
+    top: 73%;
     z-index: 10;
-    width: calc(6vh - 2px);
+    width: calc(4vh - 1px);
+    opacity: 85%;
 }
 
 
@@ -13,8 +14,9 @@
 
 #iconreal{
     object-fit: contain;
-    width: 6vh; /* limit the width of the icon */
-    height: 9vh; /* limit the height of the icon */
+    width: 4vh; /* limit the width of the icon */
+    height: 17vh; /* limit the height of the icon */
+    filter: drop-shadow(-1px 1px 3px rgb(49, 53, 58));
 }
 
 
